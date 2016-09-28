@@ -1,0 +1,62 @@
+header{
+    width:100%;
+    
+    color:white;
+    font-size: 40px;
+    background-color: green;
+}
+
+body{
+    width: auto;
+    margin: 0px;
+    background:center;
+    background-size:cover;
+    background-image: url(../img/b1.jpg);
+    background-attachment: fixed;
+}
+
+.divs{
+    margin-left: 15%;
+    margin-right: 15%;
+    height:auto;
+    width: auto;
+}
+.control_panel{
+    background-color: white;
+    text-align: center;
+}
+
+footer{
+    background-color: grey;
+    max-width:100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.clear_coment{
+    opacity:0.3;
+    background: url('style/img/up.ico');
+    float: right;
+    height: 24px;
+    width: 24px;
+}
+
+.clear_coment:hover{
+    opacity:1;
+}
+
+.object№i{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 3px;
+    border-color:black;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: white;
+}
