@@ -1,37 +1,69 @@
 header{
     width:100%;
-    
+    max-height: 50px;
     color:white;
     font-size: 40px;
     background-color: green;
 }
 
 body{
+    height: 100%;
     width: auto;
     margin: 0px;
     background:center;
-    background-size:cover;
+    /*background-size:cover;
     background-image: url(../img/b1.jpg);
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
 
 .divs{
+    margin-top: 15px;
     margin-left: 15%;
     margin-right: 15%;
     height:auto;
     width: auto;
 }
+
 .control_panel{
+    margin-left: 15%;
+    margin-right:15%;
     background-color: white;
     text-align: center;
 }
 
-footer{
-    background-color: grey;
-    max-width:100%;
-    text-align: center;
-    color: white;
-    font-size: 30px;
+.control_buttons{
+    margin-left: 5%;
+    width: 100px;
+    height: 50px;
+}
+
+.img{float: left;
+    /*/*width: 30%;
+    height: auto;
+    overflow: hidden;
+    text-align: left;*/
+    /*border: 3px groove black;*/
+    width: 30%;
+    display: table-cell;
+    height: auto;
+}
+
+img{
+    height: auto;
+    width: 90%;
+    border: 3px groove black;
+    border-radius:12px;
+}
+
+.block_name{
+    border: 3px groove black;
+    border-radius:12px;
+}
+
+.information{float: right;display: table-cell;
+    height: auto;
+    width: 65%;
+    /*border: 3px groove black;*/
 }
 
 .bold{
@@ -46,11 +78,7 @@ footer{
     width: 24px;
 }
 
-.clear_coment:hover{
-    opacity:1;
-}
-
-.object№i{
+.object№i{height:300px;
     text-align: center;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -59,4 +87,19 @@ footer{
     border-style: solid;
     border-radius: 5px;
     background-color: white;
+    
+}
+
+.clear_coment:hover{
+    opacity:1;
+}
+
+footer{
+    /*left: 0;
+    bottom: 0;*/
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    font-size: 30px;*/
 }
