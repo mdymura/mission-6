@@ -1,43 +1,49 @@
 header{
     width:100%;
     max-height: 50px;
+    min-width: 545px;
     color:white;
     font-size: 40px;
-    background-color: green;
+    /*background-color: green;*/
 }
 
 body{
+    min-width: 545px;
     height: 100%;
-    width: auto;
+    width: 100%;
     margin: 0px;
     background:center;
-    /*background-size:cover;
-    background-image: url(../img/b1.jpg);
-    background-attachment: fixed;*/
+    background-size:cover;
+    background-color: #F2F3F2;
+    /*background-image: url(../img/wallpapers_xp.jpg);*/
+    background-attachment: fixed;
 }
 
-.divs{
+.divs{min-width: 545px;
     margin-top: 15px;
     margin-left: 15%;
-    margin-right: 15%;
-    height:auto;
-    width: auto;
+    width: 70%;
 }
 
 .control_panel{
+    min-width: 545px;
     margin-left: 15%;
     margin-right:15%;
-    background-color: white;
+    /*background-color: white;*/
     text-align: center;
 }
 
-.control_buttons{
-    margin-left: 5%;
+.control_buttons{position: relative;
+    /*margin-left: 5%;*/
     width: 100px;
     height: 50px;
 }
 
-.img{float: left;
+.img{
+    float: left;
+   /* position: relative;*/
+    margin: 0 4px ;
+    /*position: absolute;*/
     /*/*width: 30%;
     height: auto;
     overflow: hidden;
@@ -46,23 +52,37 @@ body{
     width: 30%;
     display: table-cell;
     height: auto;
+    max-width: 200px;
+    /*max-height: 200px;*/
+    /*display: inline-block;*/
 }
 
 img{
-    height: auto;
-    width: 90%;
-    border: 3px groove black;
+    /*margin:2px 2px 2px 2px;*/
+    /*height: auto;*/
+    width: 100%;
+    /*border: 3px groove black;*/
     border-radius:12px;
+    /*max-width: 200px;*/
+    /*max-height: 200px;*/
 }
 
-.block_name{
+.object_name{/*
     border: 3px groove black;
-    border-radius:12px;
+    border-radius:12px;*/
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
-.information{float: right;display: table-cell;
+.information{
+    /*float: left;*/
+    margin-left: 32%;
+    /*float: right;*/
+    /*text-align: right;*/
+    /*text-align: center;*/
     height: auto;
-    width: 65%;
+    /*width: 99%;*/
     /*border: 3px groove black;*/
 }
 
@@ -71,27 +91,53 @@ img{
 }
 
 .clear_coment{
+    /*display: none;*/
     opacity:0.3;
-    background: url('style/img/up.ico');
     float: right;
-    height: 24px;
-    width: 24px;
+    width: 5%;
+    max-width: 30px;
 }
 
-.object№i{height:300px;
+.object1{/*position: relative;*/
+    /*text-align: center;*/
+    display: table;
+    height:auto;
     text-align: center;
     margin-top: 1%;
     margin-bottom: 1%;
-    border: 3px;
+    /*border: 3px;
     border-color:black;
     border-style: solid;
     border-radius: 5px;
-    background-color: white;
+    */background-color: white;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0px 10px 6px -6px #777;
+    box-shadow: 6px 10px 6px -6px #777;
     
 }
 
 .clear_coment:hover{
     opacity:1;
+}
+
+.menu{float: right;
+    position: fixed;
+    width: auto;
+    bottom: 5px;
+    left: 8px;
+    
+}
+
+.delete_block{
+    width: 30%;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.menu_list{
+    position: relative;
+    display: none;
 }
 
 footer{
@@ -103,3 +149,9 @@ footer{
     color: white;
     font-size: 30px;*/
 }
+
+/*@media screen and (min-width: 960px){
+    .object1{
+        height: 400px;
+    }
+}*/
