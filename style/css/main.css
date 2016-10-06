@@ -4,7 +4,14 @@ header{
     min-width: 545px;
     color:white;
     font-size: 40px;
+    /*background-image: url(../img/header1.jpg);
+    background-position: center;*/
     /*background-color: green;*/
+    background-color: #1E9F62;
+     -webkit-box-shadow: 0 10px 6px -6px #777;
+        -moz-box-shadow: 0px 10px 6px -6px #777;
+        box-shadow: 0px 10px 6px -6px #777;
+    
 }
 
 body{
@@ -12,17 +19,22 @@ body{
     height: 100%;
     width: 100%;
     margin: 0px;
-    background:center;
-    background-size:cover;
+    /*border: 3px groove black;*/
+    /*background:center;
+    background-size:cover;*/
     background-color: #F2F3F2;
     /*background-image: url(../img/wallpapers_xp.jpg);*/
+    /*background-attachment: fixed;*/
+   /* background-image: url(../img/b2.jpg);
     background-attachment: fixed;
+    background-position: center;*/
 }
 
 .divs{min-width: 545px;
     margin-top: 15px;
     margin-left: 15%;
     width: 70%;
+    /*border: 3px groove black;*/
 }
 
 .control_panel{
@@ -41,8 +53,11 @@ body{
 
 .img{
     float: left;
+    display:table-row;
+    margin:2px 2px 2px 2px;
+    /*float: left;*/
    /* position: relative;*/
-    margin: 0 4px ;
+    /*margin: 0 4px ;*/
     /*position: absolute;*/
     /*/*width: 30%;
     height: auto;
@@ -67,17 +82,38 @@ img{
     /*max-height: 200px;*/
 }
 
-.object_name{/*
-    border: 3px groove black;
-    border-radius:12px;*/
+.object_name{
+    text-align: left;
+    /*margin-left: 30%;*/
+    /*float: right;*/
+    /*text-align: left;*/
+    /*border: 3px groove black;*/
+    border-radius:12px;
     font-size: 20px;
     font-weight: bold;
+    /*margin-left: 32%;*/
+}
 
+.adress{
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.contacts{
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    font-style: 
 }
 
 .information{
-    /*float: left;*/
-    margin-left: 32%;
+    color: black;
+    text-align: left;
+    /*float: right;*/
+    /*display:table-row;*/
+    /*margin-left: 32%;*/
     /*float: right;*/
     /*text-align: right;*/
     /*text-align: center;*/
@@ -103,17 +139,21 @@ img{
     display: table;
     height:auto;
     text-align: center;
-    margin-top: 1%;
+    /*margin-top: 1%;*/
     margin-bottom: 1%;
     /*border: 3px;
     border-color:black;
     border-style: solid;
-    border-radius: 5px;
-    */background-color: white;
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-    -moz-box-shadow: 0px 10px 6px -6px #777;
-    box-shadow: 6px 10px 6px -6px #777;
+    border-radius: 5px;*/
+    background-color: white;
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+        -moz-box-shadow: 0px 10px 6px -6px #777;
+        box-shadow: 10px 10px 6px -6px #777;
     
+}
+
+.object1:hover{
+    color: blue;
 }
 
 .clear_coment:hover{
