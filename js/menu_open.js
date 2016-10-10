@@ -1,6 +1,6 @@
 /*This script delete block, in which it is*/
 $(document).ready(function () {
-  $('.delete_block', '.menu').click(function(){
+  $('.menu_open', '.menu').click(function(){
   	var obj = $('ul', '.menu');
   	if (obj.hasClass('menu_list')) {
 

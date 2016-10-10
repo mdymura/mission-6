@@ -1,3 +1,5 @@
 $(function (){
-    $('divs').append('<p>Меня тут не было!</p>');
+	$('.create_block').click(function(){
+    $('.divs').append('<p>Меня тут не было!</p>');
+})
 });
