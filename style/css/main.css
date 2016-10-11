@@ -30,7 +30,49 @@ body{
     background-position: center;*/
 }
 
-.divs{min-width: 545px;
+.history_deleted{
+    background: black;
+    min-width: 545px;
+    margin-top: 15px;
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
+    /*visibility: hidden;*/
+    display: none;
+}
+
+.history_added{
+    background: green;
+    min-width: 545px;
+    margin-top: 15px;
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
+    /*visibility: hidden;*/
+    display: none;
+}
+
+.added_object{
+    display: table;
+    height:auto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1%;
+    background-color: white;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0px 10px 6px -6px #777;
+    box-shadow: 10px 10px 6px -6px #777;
+}
+
+.deleted_objects{
+    min-width: 545px;
+    margin-top: 15px;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.divs{
+    min-width: 545px;
     margin-top: 15px;
     margin-left: 15%;
     width: 70%;
@@ -45,13 +87,15 @@ body{
     text-align: center;
 }
 
-.control_buttons{position: relative;
+.control_buttons{
+    position: relative;
     /*margin-left: 5%;*/
     width: 100px;
     height: 50px;
 }
 
 .img{
+    display: table-column;
     float: left;
     display:table-row;
     margin:2px 2px 2px 2px;
@@ -83,6 +127,7 @@ img{
 }
 
 .object_name{
+    /*display: table-column; */
     text-align: left;
     /*margin-left: 30%;*/
     /*float: right;*/
@@ -127,18 +172,20 @@ img{
 }
 
 .clear_coment{
-    /*display: none;*/
+    display: none;
     opacity:0.3;
     float: right;
     width: 5%;
     max-width: 30px;
 }
 
-.object1{/*position: relative;*/
+.object1{
+    /*position: relative;*/
     /*text-align: center;*/
     display: table;
     height:auto;
     text-align: center;
+    width: 100%;
     /*margin-top: 1%;*/
     margin-bottom: 1%;
     /*border: 3px;
@@ -152,6 +199,18 @@ img{
     
 }
 
+.new_object{
+    display: none;
+    height:auto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1%;
+    background-color: white;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0px 10px 6px -6px #777;
+    box-shadow: 10px 10px 6px -6px #777;
+}
+
 .object1:hover{
     color: blue;
 }
@@ -160,7 +219,8 @@ img{
     opacity:1;
 }
 
-.menu{float: right;
+.menu{
+    float: right;
     position: fixed;
     width: auto;
     bottom: 5px;
@@ -176,6 +236,7 @@ img{
 }
 
 .menu_list{
+    display: none;
     position: relative;
     display: none;
 }

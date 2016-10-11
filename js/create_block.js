@@ -1,10 +1,10 @@
-$(function (){
-	$('.create_block').click(function(){
+$('.create_block').click(function(){
 		var object_name = $('#object_name').val();
 		var adress = $('#adress').val();
 		var contacts = $('#contacts').val();
 		var information = $('#information').val();
-    	$('.basic').append('<div class="object1">'+
+		var his = $(this).closest('body').find('.new_object');
+    	$('.divs').append('<div class="added_object">'+
        ' <img alt="close button" src="style/png/close.png" class="clear_coment">'+
             '<div class="img">'+
                 '<img src="style/png/No_img.png" alt="picture">'+
@@ -24,5 +24,6 @@ $(function (){
                  information +
             '</div>'+
         '</div>');
+        $('.added_object').clone().appendTo(".history_added");
+    	his.hide();
 	})
-});
