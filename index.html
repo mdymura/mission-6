@@ -14,6 +14,19 @@
     <header class="bold" >
         Тестовое задание
     </header>
+    <br>
+
+<!-- <div id="list1">
+<ul>
+<li><a href="#">Список мест</a></li>
+<li><a href="#">Избранные</a></li>
+<li><a href="#">История добавления</a></li>
+<li><a href="#">История удаления</a></li>
+</ul>
+</div>    
+
+
+ -->
     <div class="control_panel">
         <button class="places_button">Список мест</button>
         <button class="favorite_button">Избранные</button>
@@ -27,10 +40,38 @@
         <div class="bold">История удаления</div>
     </div>
 
-
+    <div class="container">
+    <div class="new_object">
+        <!-- <img alt="close button" src="style/png/close.png" class="clear_coment"> -->
+            <div class="img">
+                <img src="style/png/No_img.png" alt="picture">
+            </div>
+            <div class="object_name">
+                Название блока 
+                    
+                    <input type="text" id="object_name">
+            </div>
+            <br>
+            <div class="adress">
+                Адрес:
+                    <input type="text" id="adress">
+            </div>
+            <div class="contacts">
+                Номер телефона:
+                    <br>
+                    <input type="text" id="contacts">
+            </div>
+            <br>
+            <div class="information">
+                Информация
+                <br>
+                <textarea id="information"></textarea>
+            </div>
+            <button class="create_block">Создать блок</button>
+        </div>
     <div class="divs"> 
         <div class="basic">
-            <div class="bold">Список обьектов</div>
+            <!-- <div class="bold">Список обьектов</div> -->
             <div class="object1">
             <img alt="close button" src="style/png/close.png" class="clear_coment">
                 <div class="img">
@@ -140,36 +181,13 @@
 
                 </div>
             </div>
+        </div> 
+
         </div>
-        <div class="new_object">
-        <!-- <img alt="close button" src="style/png/close.png" class="clear_coment"> -->
-            <div class="img">
-                <img src="style/png/No_img.png" alt="picture">
-            </div>
-            <div class="object_name">
-                Название блока 
-                    
-                    <input type="text" id="object_name">
-            </div>
-            <br>
-            <div class="adress">
-                Адрес:
-                    <input type="text" id="adress">
-            </div>
-            <div class="contacts">
-                Номер телефона:
-                    <br>
-                    <input type="text" id="contacts">
-            </div>
-            <br>
-            <div class="information">
-                Информация
-                <br>
-                <textarea id="information"></textarea>
-            </div>
-            <button class="create_block">Создать блок</button>
-        </div>
+
     </div>
+        
+   
         <div class="menu">
                 <ul class="menu_list">
                     <li class="show_add_block" > Добавление обьекта</li>
@@ -179,13 +197,13 @@
             <img class="menu_open" src="style/png/menu.png" alt="Меню">
         </div>
     
-    <footer>
-        6-е задание для компании RiverSoft
-            <sup>
-                ©
-            </sup>
-    </footer>
-   
+<!-- <footer>
+    6-е задание для компании RiverSoft
+        <sup>
+            ©
+        </sup>
+</footer>
+ -->
     <script type="text/javascript" src="js/clear_block.js">
     </script> 
     <script type="text/javascript" src="js/close_blocks.js"></script>

@@ -1,4 +1,3 @@
-/*This script delete block, in which it is*/
 $(document).ready(function () {
   $('.menu_open', '.menu').click(function(){
   	// var obj = $('ul', '.menu');
@@ -15,3 +14,10 @@ $(document).ready(function () {
 		else{menu.hide();}
 });
   })
+  $(function(){
+  $(document).click(function(event) {
+    if ($(event.target).closest(".menu_open").length) return;
+    $(".menu_list").hide("slow");
+    event.stopPropagation();
+  });
+});
