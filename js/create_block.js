@@ -26,4 +26,10 @@ $('.create_block').click(function(){
         '</div>');
         $('.added_object').clone().appendTo(".history_added");
     	his.hide();
-	})
+    }   ); 
+// $('.clear_coment').click(function(e){
+//     $(this).parent().clone().appendTo(".history_deleted");
+//     var index=$('.clear_coment').index(this); 
+//     $(this).parent().remove();
+//     $('.clear_coment').hide();
+//   });

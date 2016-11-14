@@ -3,14 +3,14 @@ header{
     max-height: 50px;
     min-width: 545px;
     color:white;
-    font-size: 40px;
+    font-size: 20px;
     /*background-image: url(../img/header1.jpg);
     background-position: center;*/
     /*background-color: green;*/
     background-color: #1E9F62;
-     -webkit-box-shadow: 0 10px 6px -6px #777;
+    /* -webkit-box-shadow: 0 10px 6px -6px #777;
         -moz-box-shadow: 0px 10px 6px -6px #777;
-        box-shadow: 0px 10px 6px -6px #777;
+        box-shadow: 0px 10px 6px -6px #777;*/
     
 }
 
@@ -59,9 +59,9 @@ body{
     width: 100%;
     margin-bottom: 1%;
     background-color: white;
-    -webkit-box-shadow: 0 10px 6px -6px #777;
+   /* -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0px 10px 6px -6px #777;
-    box-shadow: 10px 10px 6px -6px #777;
+    box-shadow: 10px 10px 6px -6px #777;*/
 }
 
 .deleted_objects{
@@ -76,29 +76,34 @@ body{
     margin-top: 15px;
     margin-left: 15%;
     width: 70%;
-    /*border: 3px groove black;*/
+    border: 2px white;
+    border-radius:12px;
 }
 
 .control_panel{
+    border-bottom: 1px solid black; 
     min-width: 545px;
-    margin-left: 15%;
-    margin-right:15%;
-    /*background-color: white;*/
+   /* margin-left: 15%;
+    margin-right:15%;*/
+    background-color: white;
     text-align: center;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0px 10px 6px -6px #777;
+    box-shadow: 10px 10px 6px -6px #777;
 }
 
-.control_buttons{
+/*.control_buttons{
     position: relative;
-    /*margin-left: 5%;*/
+    margin-left: 5%;
     width: 100px;
     height: 50px;
-}
+}*/
 
 .img{
     display: table-column;
     float: left;
     display:table-row;
-    margin:2px 2px 2px 2px;
+    margin:1px 1px 1px 1px;
     /*float: left;*/
    /* position: relative;*/
     /*margin: 0 4px ;*/
@@ -107,11 +112,12 @@ body{
     height: auto;
     overflow: hidden;
     text-align: left;*/
-    /*border: 3px groove black;*/
-    width: 30%;
+    width:auto;
     display: table-cell;
     height: auto;
-    max-width: 200px;
+    max-width: 100%;
+    border-radius: 12px;
+    /*border: 3px groove black;*/
     /*max-height: 200px;*/
     /*display: inline-block;*/
 }
@@ -119,9 +125,9 @@ body{
 img{
     /*margin:2px 2px 2px 2px;*/
     /*height: auto;*/
-    width: 100%;
+    /*width: 100%;*/
     /*border: 3px groove black;*/
-    border-radius:12px;
+    /*border-radius:12px;*/
     /*max-width: 200px;*/
     /*max-height: 200px;*/
 }
@@ -187,28 +193,39 @@ img{
     text-align: center;
     width: 100%;
     /*margin-top: 1%;*/
-    margin-bottom: 1%;
-    /*border: 3px;
+    /*margin-bottom: 1%;*/
+    border-top: 3px;
+    border-radius: 5px;
     border-color:black;
-    border-style: solid;
-    border-radius: 5px;*/
+    /*border-style: solid;*/
     background-color: white;
-        -webkit-box-shadow: 0 10px 6px -6px #777;
+    
+       /* -webkit-box-shadow: 0 10px 6px -6px #777;
         -moz-box-shadow: 0px 10px 6px -6px #777;
         box-shadow: 10px 10px 6px -6px #777;
-    
+    */
 }
 
 .new_object{
+    text-align: center;
+    min-width: 545px;
+    /*margin-top: 15px;*/
+    margin-left: 15%;
+    /*margin-right: 15%;*/
+    width: 70%;
     display: none;
     height:auto;
     text-align: center;
-    width: 100%;
-    margin-bottom: 1%;
+   /* border: 3px;
+    border-color:green;
+    border-style: solid;
+    border-radius: 5px;*/
+    /*width: 100%;*/
+    /*margin-bottom: 1%;*/
     background-color: white;
-    -webkit-box-shadow: 0 10px 6px -6px #777;
+   /* -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0px 10px 6px -6px #777;
-    box-shadow: 10px 10px 6px -6px #777;
+    box-shadow: 10px 10px 6px -6px #777;*/
 }
 
 .object1:hover{
@@ -273,9 +290,24 @@ footer{
     }
 }*/
 
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5%; /* Отступ слева */
+   /* border: 1px solid #000;  Рамка вокруг текста 
+    padding: 3px;  Поля вокруг текста */}
+ul.hr li:hover{
+ background-color: green;
+}
 
-#list1 { }
-#list1 ul { list-style:none; text-align:center; border-top:1px /*solid #eee*/; /*border-bottom:1px solid #eee; *//*padding:10px 0;*/ }
-#list1 ul li { display:inline; /*text-transform:uppercase;*//* padding:0 10px;*//* letter-spacing:10px;*/ }
-#list1 ul li a { text-decoration:none; /*color:#eee;*/ }
-/*#list1 ul li a:hover { text-decoration:underline; } */
+.logo img{
+    float: left;
+    max-height: 50px;
+    
+    /*height: 100px;*/
+    border-radius: 12px;
+    /*width: 30%;*/
+}
